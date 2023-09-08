@@ -4,9 +4,9 @@
 
 <head>
 	<meta charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Anasayfa</title>
-
+	<link rel="stylesheet" href="css/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
@@ -15,53 +15,54 @@
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				ERGİNEER BAR VE MANGAL
-
-				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
+			<div class="headline">
+				<div class="header__container">
+					<h1><a href="index.html">ERGİNEER BAR VE MANGAL</a></h1>
+					<!-- nav -->
+					<nav >
+						<div class="header_menu">
+							<a href="./menu.html">Menü</a>
+							<a href="./rezervasyonlar.html">Rezervasyonlar</a>
+							<a href="./ozel-teklifler.html">Özel Teklifler</a>
+							<a href="./iletisim.html">İletişim</a>
+						</div>
+						<div class="header__social">
+							<i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i>
+							<i class="fa-brands fa-square-twitter" style="color: #ffffff;"></i>
+							<i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
+						</div>
+					</nav>
+				</div>
 			</div>
 		</header>
-
+		<!-- spacer -->
+		<div class="spacer-sm"></div>
 		<!-- gallery section -->
 		<section class="gallery">
 			<div>
 				<h2>YEMEKLERİMİZ</h2>
-
-				img/food-avocadotoast.jpg
-
-				img/food-burger.jpg
-
-				img/food-poutine.jpg
-
-				img/food-ribs.jpg
-
-				img/food-sandwich.jpg
-
-				img/food-sausage.jpg
-
-				img/food-steak.jpg
-
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+				<div class="gallery__images">
+					<img src="img/food-avocadotoast.jpg" alt="">
+					<img src="img/food-burger.jpg" alt="">
+					<img src="img/food-poutine.jpg" alt="">
+					<img src="img/food-ribs.jpg" alt="">
+					<img src="img/food-sandwich.jpg" alt="">
+					<img src="img/food-sausage.jpg" alt="">
+					<img src="img/food-steak.jpg" alt="">
+					<img src="img/food-tacos.jpg" alt="">
+					<img src="img/food-wings.jpg" alt="">
+				</div>
 			</div>
 		</section>
-
 		<!-- spacer -->
 		<div class="spacer"></div>
-
 		<!-- about section -->
 		<section class="about">
 			<div class="about-container">
 				<h2>HAKKIMIZDA</h2>
-
+				
 				<div id="cooks" class="pic">
 				</div>
-
 				<div class="text">
 					<h3>Güzel Yemekler, Güzel İnsanlar</h3>
 					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
@@ -72,44 +73,35 @@
 						short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
 						shankle duis chicken dolore andouille do tenderloin qui.</p>
 				</div>
-
 				<div id="bartender" class="pic">
 				</div>
 			</div>
 		</section>
 
 		<!-- spacer -->
-		<div class="spacer"></div>
+		<div class="spacer-sm"></div>
 
 		<!-- contact section -->
 		<section class="contact">
 			<div class="contact-container">
 				<h2>BİZE ULAŞIN</h2>
-
 				<div class="info">
 					<div class="address">
 						<h3>Adres</h3>
-
 						<address>
 							<p>100. sokak</p>
 							<p>Oran, Ankara</p>
 						</address>
 					</div>
-
 					<div class="hours">
 						<h3>Saatler</h3>
-
 						<div>
 							<p>Pazartesiden Cumaya:</p>
 							<p>10:00 - 22:00</p>
-							<p>Friday and Saturday:</p>
-							<p>10:00 - 02:00</p>
 						</div>
 					</div>
-
 					<div class="contacts">
 						<h3>İletişim</h3>
-
 						<div>
 							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
 							<a id="email" href="mailto:restoran@boomer.com">restoran@ergineer.com</a>
@@ -124,16 +116,31 @@
 
 		<!-- footer -->
 		<footer>
+			<div class="first-row">
+				<div class="form-section">
+					<form action="" method="get" class="form-area">
+						<label for="email">Mail listemize katılın! </label>
+						<div class="form-area">
+							<input type="email" name="email" id="email" placeholder="E-posta Adresi" required />
+							<button type="submit">Üye Ol!</button> 
+						</div>
+					</form>
+				</div>
+				<!-- nav -->
+				<div>
+					<nav class="footer-nav-area">
+						<a href="./menu.html">Menü</a>
+						<a href="./rezervasyonlar.html">Rezervasyonlar</a>
+						<a href="./ozel-teklifler.html">Özel Teklifler</a>
+						<a href="./iletisim.html">İletişim</a>
+					</nav>
+				</div>
+			</div>
 			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
-			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
-			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+			<div class="copyright">
+				<!-- copyright -->
+				<p>©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.</p>
+			</div>
 		</footer>
 	</div>
 </body>
