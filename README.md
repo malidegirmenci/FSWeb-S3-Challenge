@@ -54,9 +54,9 @@ Bitirmeden önce, tasarım dosyalarını gözden geçirmek için 10 dakikanı ay
 ​
 HTML/CSS implementasyonu için Google Chrome developer tools(geliştirici araçları) kullanman **gerekmektedir**. Bu araçta ekran boyutlarını değiştirebileceğin bir özellik bulunmaktadır, tarayıcı penceresini küçültmek aynı işlevi görmez. Bu özellik, standart 1920x1080 piksel masaüstü genişliği gibi mevcut monitörünüzün boyutundan daha büyük boyutları da görüntülemene olanak tanır. Geliştirici araçlarını kullanmadan responsive(duyarlı) bir web sitesini düzgün şekilde uygulama konusunda başarılı olamazsın.
 ​
-* [ ] Desktop boyutu 1920px width olmalıdır.
-* [ ] Mobil boyutu 428px width olmalıdır.
-* [ ] viewport tagını eklemeyi unutmayın!
+* [X] Desktop boyutu 1920px width olmalıdır.
+* [X] Mobil boyutu 428px width olmalıdır.
+* [X] viewport tagını eklemeyi unutmayın!
 ​
 **NOT: Tasarımınızın bu boyutlar arasında harika görünmediğini fark edebilirsin. Bu tamamen normaldir; gerçek bir ürün için, en azından tablet boyutunda bir ara tasarım ve çeşitli ekran boyutları için deneyimi geliştirmek için muhtemelen birkaç kesme eşiği daha olacaktır. Daha fazla pratik yapmak istiyorsan, projenin her boyutta harika görünmesini sağlamaktan çekinmeyin!**
 ​
@@ -69,11 +69,11 @@ HTML/CSS implementasyonu için Google Chrome developer tools(geliştirici araçl
 ​
 Ana sayfa için sağlanan tasarım dosyasını inceleyin.
 ​
-* [ ] Eksik header ve footer bölümlerini oluşturmak için HTML ve CSS'yi oluşturun.
-* [ ] h1 tagiyle oluşturduğunuz sayfa başlığı [index.html](index.html) 'ye bağlantı vermelidir (link <a>).
-* [ ] `Menü` menü elemanı [menu.html](menu.html) sayfasına bağlantı vermelidir.
-* [ ] Header'e [FontAwesome](https://fontawesome.com/search)'la oluşturacağınız Facebook, Twitter, and Instagram sosyal medya ikonları ekleyin. *NOT: * ikonların şu isimleri içerdiğine emin olun: "facebook", "twitter", ve "instagram" .
-* [ ] Ana sayfa düzeninin geri kalanını verilen tasarıma uyacak şekilde oluşturun. Çoğu zaten uygulandı; yalnızca header, footer ve galeri bölümlerini düzeltmen gerekir.
+* [X] Eksik header ve footer bölümlerini oluşturmak için HTML ve CSS'yi oluşturun.
+* [X] h1 tagiyle oluşturduğunuz sayfa başlığı [index.html](index.html) 'ye bağlantı vermelidir (link <a>).
+* [x] `Menü` menü elemanı [menu.html](menu.html) sayfasına bağlantı vermelidir.
+* [X] Header'e [FontAwesome](https://fontawesome.com/search)'la oluşturacağınız Facebook, Twitter, and Instagram sosyal medya ikonları ekleyin. *NOT: * ikonların şu isimleri içerdiğine emin olun: "facebook", "twitter", ve "instagram" .
+* [X] Ana sayfa düzeninin geri kalanını verilen tasarıma uyacak şekilde oluşturun. Çoğu zaten uygulandı; yalnızca header, footer ve galeri bölümlerini düzeltmen gerekir.
 ​
 Renkler ve fontlar:
 Açık text: rgb(225, 239, 230);

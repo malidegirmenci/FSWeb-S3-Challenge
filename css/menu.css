@@ -83,9 +83,13 @@ h4 {
 }
 
 p, a {
+    color:white;
     font-size: 3rem;
 }
-
+.container{
+    display: flex;
+    flex-direction: column;
+}
 /* header section */
 header {
     width: 100%;
@@ -95,7 +99,32 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.header__container{
+    background-color: rgba(0, 4, 17, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    padding:1rem auto;
+}
+.header__container h1 a {
+    font-size: 7.5rem;
+}
+header nav {
+    align-self: stretch;
+}
+.header_menu{
+    display: flex;
+    gap:3rem;
+    justify-content: space-evenly;
+}
+.header__social {
+    display: flex;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    gap:10rem;
+    justify-content: center;
+}
 /* spacer */
 .spacer {
     width: 100%;
@@ -111,21 +140,95 @@ header {
 /* menu */
 
 .menu {
-    width: 100%;
-    height: auto;
+    flex-grow: 1;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17,0.8);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
 }
+
+.menu h2{
+    text-align: center;
+    color:white;
+    background-color: rgb(0, 4, 17,0.8);
+}
+.menu h3, h4, p {
+    color:white;
+    margin:0;
+    padding:0;
+    text-align: left;
+}
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5rem;
+    padding:5rem 10rem;
+    background-color: rgb(0, 4, 17,0.8);
+}
+
+.menu-section{
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+}
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item-title{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* footer section */
 footer {
-    width: 100%;
-    height: 15vh;
-    padding-top: 2.5vh;
     font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 4, 17);
+
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-nav-area{
+    display: flex;
+    gap:2rem;
+}
+label{
+    color:white;
+}
+input{
+    margin:0;
+    padding:0;
+    color:rgb(0, 4, 17);
+    height: 25px;
+    width: 75%;
+}
+
+button{
+    margin:0;
+    padding:0;
+    border:0;
+    height: 25px;
+    color:rgb(0, 4, 17);
+    width:22%;
+}
+.copyright p{
+    background-color:rgb(0, 4, 17);
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 10%;
 }
 
 /* mobile media query */
