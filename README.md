@@ -85,13 +85,13 @@ Koyu transparan: background-color: rgb(0, 4, 17, .8);
 ​
 Menü sayfası için sağlanan tasarım dosyalarını inceleyin.
 ​
-* [ ] Ana sayfa header ve footer kopyalayıp menü sayfasına yapıştırın.
-* [ ] Header resmini menü sayfası resmiyle güncelleyin.
-* [ ] Menü için bir article öğesi ve içinde bir div kullanın; div'in class'ı "menu-container" olarak düzenleyin
-* [ ] Tüm bölümler için bir container oluşturun (örnek. yemekler ya da  mezeler) class'ları "menu-section" olarak düzenleyin
-* [ ] Tüm menü elemanları için bir container oluşturun (örnek. soda ya da hamburger) ve class'larını "menu-item" olarak oluşturun
-* [ ] Tüm fiyatlara ve menü başlıklarına H4 ekleyin, her menü elemanı için 2 adet h4 olacak.
-* [ ] Tüm menü elemanı açıklamaları için p etiketi ekleyin, ikinci satırdaki açıklama da [örnek: "(v)"] kendi p etiketine sahip olacaktır.
+* [X] Ana sayfa header ve footer kopyalayıp menü sayfasına yapıştırın.
+* [X] Header resmini menü sayfası resmiyle güncelleyin.
+* [X] Menü için bir article öğesi ve içinde bir div kullanın; div'in class'ı "menu-container" olarak düzenleyin
+* [X] Tüm bölümler için bir container oluşturun (örnek. yemekler ya da  mezeler) class'ları "menu-section" olarak düzenleyin
+* [X] Tüm menü elemanları için bir container oluşturun (örnek. soda ya da hamburger) ve class'larını "menu-item" olarak oluşturun
+* [X] Tüm fiyatlara ve menü başlıklarına H4 ekleyin, her menü elemanı için 2 adet h4 olacak.
+* [X] Tüm menü elemanı açıklamaları için p etiketi ekleyin, ikinci satırdaki açıklama da [örnek: "(v)"] kendi p etiketine sahip olacaktır.
 ​
 desktop için renkler ve fontlar:
 Açık text: rgb(225, 239, 230);
@@ -106,5 +106,5 @@ Koyu çerçeveler(border): rgb(0, 4, 17);
 ​
 ### Ek Görevler
 * [ ] Rezervasyonlar, Özel Teklifler ve İletişim sayfaları için de HTML ve CSS oluşturun
-* [ ] Tüm bu sayfaları responsive olarak tasarlayın.​
+* [] Tüm bu sayfaları responsive olarak tasarlayın.​
 
